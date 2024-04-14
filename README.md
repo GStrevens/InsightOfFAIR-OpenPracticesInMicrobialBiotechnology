@@ -17,6 +17,10 @@ The provided dataset should facilitate further research and analysis in the fiel
 
 Dataset Overview
 
+-Figures
+-MicrobialBiotechnology_Publications_Dataset.xlsx
+-MicrobialBiotechnology_Publications_Dataset.csv
+-MicrobialBiotechnology_Project_RMarkdown_Code.pdf
 
 
 Dataset Description
