@@ -21,19 +21,19 @@ Dataset Overview
 
 Dataset Description
 
-1. MicrobialBiotechnology_Publications_Dataset_2024:
+1. MicrobialBiotechnology_Publications_Dataset:
    
 The dataset is derived from a comprehensive analysis of selected publications in the field of Microbial Biotechnology, presented in CSV format. It is designed for use with statistical software, like RStudio, to facilitate detailed analysis.
 CSV File Structure: The dataset contains rows corresponding to selected publications, each characterized by a set of variables critical to our study. The columns in the CSV file represent these variables.
 
-Excel File Structure (MicrobialBiotechnology_Publications_Dataset_2024.xlsx)
+Excel File Structure (MicrobialBiotechnology_Publications_Dataset.xlsx)
 -Sheet 1 (Dataset): Contains rows of selected publications and columns representing the variables used in our analysis.The raws that are highlighted in yellow, are the papers that have been randomly selected for reassessing
 -Sheet 2 (Variable Descriptions): Provides a detailed explanation of each variable and the values they represent.
 
-CSV File (MicrobialBiotechnology_Publications_Dataset_2024.csv)
+CSV File (MicrobialBiotechnology_Publications_Dataset.csv)
 The CSV file is derived from Sheet 1 of the Excel file and was imported into RStudio for analysis.
 
-Variable	Description - (Format)
+Variable	Description - (Format)   
 Title	= The title of the article -(Text)
 DOI = Digital Object Identifier for the article -(Alphanumeric)
 ResGrp = The research group or principal investigator's surname- (Text)
@@ -53,7 +53,32 @@ Licence = Clarity and accessibility of the data usage license -(Numeric 1-4)
 Image = Image data sharing status -(Binary/NA)
 Genomics = Genomic data sharing status -(Binary/NA)
 
-Biosciences_Project_RMarkdown_Code_Version1.pdf
+RMarkdown Code
+
+MicrobialBiotechnology_Project_RMarkdown_Code.pdf
 The provided PDF is a knitted version of the RMarkdown code, presenting a static and complete view of the code, figures, and tables as outputs. This format enhances accessibility, allowing those not versed with RStudio or RMarkdown to easily view and share the research findings. It also acts as an archival record, capturing the code in a fixed form to preserve the analysis for future reproducibility. Additionally, the PDF format offers the convenience of a quick review or a printout of the research methods and outcomes, streamlining the understanding of the study's methodology and findings in one document.
 
+Usage Instructions:
+
+To use the RMarkdown code
+
+Open the .Rmd file in RStudio.
+Import the csv file "MicrobialBiotechnology_Publications_Dataset.csv"
+
+Ensure that the required libraries are installed:
+
+dplyr
+lubridate
+ggplot2
+tidyr
+scales
+MASS
+patchwork
+ordinal
+VGAM
+gmodels
+emmeans
+reshape2
+
+Run each code chunk sequentially to reproduce the analyses and figures from our study.
 
