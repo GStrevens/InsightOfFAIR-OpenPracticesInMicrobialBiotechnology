@@ -15,12 +15,16 @@ Within the scientific ecosystem there has been growing emphasis on the adoption 
 
 The provided dataset should facilitate further research and analysis in the field of FAIR and Open Data in Microbial Biotechnology. Researchers are encouraged to replicate study findings using this data, with the opportunity to ectend research into new areas. Before reusing the data, accompanying variable descriptions should be reviewed alongside the usage guidelines, ensuring accurate interpretation. 
 
+
 Dataset Overview
 
--Figures
--MicrobialBiotechnology_Publications_Dataset.xlsx
--MicrobialBiotechnology_Publications_Dataset.csv
--MicrobialBiotechnology_Project_RMarkdown_Code.pdf
+1. Figures
+
+MicrobialBiotechnology_Publications_Dataset.xlsx
+
+MicrobialBiotechnology_Publications_Dataset.csv
+
+MicrobialBiotechnology_Project_RMarkdown_Code.pdf
 
 
 Dataset Description
@@ -36,27 +40,53 @@ Excel File Structure (MicrobialBiotechnology_Publications_Dataset.xlsx)
 CSV File (MicrobialBiotechnology_Publications_Dataset.csv)
 The CSV file is derived from Sheet 1 of the Excel file and was imported into RStudio for analysis.
 
-Variable	Description - (Format)   
+Variable	Description - (Format)
+
 Title	= The title of the article -(Text)
+
 DOI = Digital Object Identifier for the article -(Alphanumeric)
+
 ResGrp = The research group or principal investigator's surname- (Text)
+
 TypE = The type of disease studied (NCD or InfD)- (Categorical)
+
 Institution	= The institution of the research group- (Text)
+
 Journal = The journal in which the article was published -(Text)
+
 Year = The publication year of the article -(Numeric)
+
 AnalysisPgrm = Indicates if analysis software is stated (1) or not (0) -(Binary)
+
 CodeArchived = Indicates if the analysis code is archived (1) or not (0); NA if not applicable -(Binary/NA)
+
 DAS = Data Availability Statement presence and type -(Binary/NA)
+
 CorresAuthor = Indicates if the group leader is a corresponding author (1) or not (0) -(Binary)
+
 Preprints = Indicates if a preprint was shared (1) or not (0) -(Binary)
+
 Complete = Completeness score of the data and metadata -(Numeric 1-4)
+
 Reuse = Reusability score of the data -(Numeric 1-4)
+
 Access = Accessibility score of the data -(Numeric 1-4)
+
 Licence = Clarity and accessibility of the data usage license -(Numeric 1-4)
+
 Image = Image data sharing status -(Binary/NA)
+
 Genomics = Genomic data sharing status -(Binary/NA)
 
-RMarkdown Code
+Proteometabolomics = Proteometabolomic data sharing status -(Binary/NA)
+
+Funding = Funding Source data sharing status -(Binary/NA)
+
+Citations PA = Citations Per Annum status -(Numeric)
+
+PIGroupLeader = If our PI is stated Group Leader of the journal article (1) or not (0) -(Binary)
+
+2. RMarkdown Code
 
 MicrobialBiotechnology_Project_RMarkdown_Code.pdf
 The provided PDF is a knitted version of the RMarkdown code, presenting a static and complete view of the code, figures, and tables as outputs. This format enhances accessibility, allowing those not versed with RStudio or RMarkdown to easily view and share the research findings. It also acts as an archival record, capturing the code in a fixed form to preserve the analysis for future reproducibility. Additionally, the PDF format offers the convenience of a quick review or a printout of the research methods and outcomes, streamlining the understanding of the study's methodology and findings in one document.
@@ -71,16 +101,27 @@ Import the csv file "MicrobialBiotechnology_Publications_Dataset.csv"
 Ensure that the required libraries are installed:
 
 dplyr
+
 lubridate
+
 ggplot2
+
 tidyr
+
 scales
+
 MASS
+
 patchwork
+
 ordinal
+
 VGAM
+
 gmodels
+
 emmeans
+
 reshape2
 
 Run each code chunk sequentially to reproduce the analyses and figures from our study.
