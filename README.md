@@ -31,8 +31,7 @@ The dataset is derived from a comprehensive analysis of selected publications in
 CSV File Structure: The dataset contains rows corresponding to selected publications, each characterized by a set of variables critical to our study. The columns in the CSV file represent these variables.
 
 Excel File Structure (MicrobialBiotechnology_Publications_Dataset.xlsx)
--Sheet 1 (Dataset): Contains rows of selected publications and columns representing the variables used in our analysis.The raws that are highlighted in yellow, are the papers that have been randomly selected for reassessing
--Sheet 2 (Variable Descriptions): Provides a detailed explanation of each variable and the values they represent.
+-Sheet 1 (Dataset): Contains rows of selected publications and columns representing the variables used in our analysis
 
 CSV File (MicrobialBiotechnology_Publications_Dataset.csv)
 The CSV file is derived from Sheet 1 of the Excel file and was imported into RStudio for analysis.
