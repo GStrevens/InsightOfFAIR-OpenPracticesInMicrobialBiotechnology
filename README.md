@@ -36,7 +36,7 @@ CSV File Structure: The dataset contains rows corresponding to selected publicat
 
 Excel File Structure (MicrobialBiotechnology_Publications_Dataset.xlsx)
 
-Dataset: Contains rows of selected publications and columns representing the variables used in our analysis
+Dataset: Sheet 1 contains rows of selected publications and columns representing the variables used in our analysis, Sheet 2 contains the Cross-Scoring sample (Highlighted Yellow), Sheet 3 contains the Re-Scoring I completed.
 
 CSV File (MicrobialBiotechnology_Publications_Dataset.csv)
 
