@@ -48,9 +48,9 @@ DOI = Digital Object Identifier for the article -(Alphanumeric)
 
 ResGrp = The research group or principal investigator's surname- (Text)
 
-TypE = The type of disease studied (NCD or InfD)- (Categorical)
+TypE = The type of Institue within the SBS- (Categorical)
 
-Institution	= The institution of the research group- (Text)
+Institution	= The institution within the SBS of the research group- (Text)
 
 Journal = The journal in which the article was published -(Text)
 
